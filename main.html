@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="shortcut icon" href="https://i.imgur.com/rq8Baqy.png" type="image/x-icon">
+    <title>Countdown App</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="countdown-wrapper">
+            <div class="title">
+                <h1>Countdown App</h1>
+            </div>
+
+            <div class="counter">
+                <div class="count">
+                    <h1 id="day">00</h1>
+                    <p>Gün</p>
+                </div>
+
+                <div class="count">
+                    <h1 id="hour">00</h1>
+                    <p>Saat</p>
+                </div>
+
+                <div class="count">
+                    <h1 id="minute">00</h1>
+                    <p>Dəqiqə</p>
+                </div>
+
+                <div class="count">
+                    <h1 id="second">00</h1>
+                    <p>Saniyə</p>
+                </div>
+
+            </div>
+
+            <div class="input-field">
+                <input type="number" placeholder="Gün" class="days" required>
+                <input type="number" placeholder="Saat" class="hours" required>
+                <input type="number" placeholder="Dəqiqə" class="minutes" required>
+                <input type="number" placeholder="Saniyə" class="seconds" required>
+            </div>
+
+            <div class="button">
+                <button onclick="countDown()" class="btn">Start</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+
+.container {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: url('https://aasnova.org/wp-content/uploads/2020/12/NeutronStarMergerNewSciRelease_01019.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.countdown-wrapper {
+    height: 560px;
+    width: 480px;
+    background: rgb(20,18,21, 0.7);
+    backdrop-filter: blur(100px);
+    border-radius: 30px;
+    border: 1px rgb(59, 58, 58) solid;
+}
+
+.title {
+    margin-top: 3rem;
+    width: 100%;
+    
+}
+
+.title h1 {
+    font-size: 2.2rem;
+    color: rgb(221, 187, 129);
+    text-align: center;
+    font-weight: 900;
+}
+
+.counter {
+    margin-top: 2.6rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.count h1 {
+    color: #fff;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.count p {
+    color: #fff;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.countdown-wrapper .input-field {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-field input {
+    border-radius: 19px;
+    margin: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    height: 3rem;
+    width: 11rem;
+    border: none;
+    outline: none;
+    background: #333;
+    padding-left: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+::placeholder {
+    color: rgb(194, 192, 192);
+}
+
+.button {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.button .btn {
+    margin: 1rem;
+    color: rgb(20,18,21);
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 12rem;
+    border: none;
+    background: rgb(221, 187, 129);
+    border-radius: 20px;
+    width: 100%;
+}
